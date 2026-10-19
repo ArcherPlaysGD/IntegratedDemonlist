@@ -53,7 +53,7 @@ jobs:
     needs: ['build']
 
     steps:
-      - uses: geode-sdk/build-geode-mod/combine@main
+      - uses: geode-sdk/build-geode-mod/combine@main@v3
         id: build
 
       - uses: actions/upload-artifact@v4
